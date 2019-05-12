@@ -15,3 +15,7 @@
 
 
 **施工中...**
+
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+<a href="https://www.codecogs.com/eqnedit.php?latex=$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" title="$Ent(D) = - \sum_{k=1}^{|\gamma|}p_klog_2p_k$" /></a></script>
