@@ -9,7 +9,7 @@
 - 对于上述第二种情形，我们把当前结点标记为叶子结点，并将其类别设定为<font color="#00f">该结点</font>所含样本最多的类别，如果集合中正类多于负类，即为正类，反之，为负类。对于第三种情形，我们同样将当前结点标记为叶子结点，但将其类别设定为<font color="#00f">其父结点</font>所含样本最多的结点。
 - 先根据哪个特征进行划分最佳？
   1. 根据信息增益划分
-     - 信息熵：度量样本纯度的一个指标，其值越小，代表集合中元素越纯，所包含的类别越少，越倾向于同一类。公式为 <a href="https://www.codecogs.com/eqnedit.php?latex=$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" title="$Ent(D) = - \sum_{k=1}^{|\gamma|}p_klog_2p_k$" /></a>，其中 $p_k$ 是指当前样本中第 $k$ 类样本所占的比例，范围是 $(k=1,2,...\gamma)$
+     - 信息熵：度量样本纯度的一个指标，其值越小，代表集合中元素越纯，所包含的类别越少，越倾向于同一类。公式为 <a href="https://www.codecogs.com/eqnedit.php?latex=$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$Ent(D)&space;=&space;-&space;\sum_{k=1}^{|\gamma|}p_klog_2p_k$" title="$Ent(D) = - \sum_{k=1}^{|\gamma|}p_klog_2p_k$" /></a>，其中 <a href="https://www.codecogs.com/eqnedit.php?latex=$p_k$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$p_k$" title="$p_k$" /></a> 是指当前样本中第 $k$ 类样本所占的比例，范围是 <a href="https://www.codecogs.com/eqnedit.php?latex=$(k=1,2,...\gamma)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$(k=1,2,...\gamma)$" title="$(k=1,2,...\gamma)$" /></a>
      - [信息增益](https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A/8864911?fr=aladdin)：类似于信息熵的增量。
 
 
