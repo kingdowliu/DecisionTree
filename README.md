@@ -10,7 +10,7 @@
 - 先根据哪个特征进行划分最佳？
   1. 根据信息增益划分
      - 信息熵：度量样本纯度的一个指标，其值越小，代表集合中元素越纯，所包含的类别越少，越倾向于同一类。公式为 $Ent(D) = - \sum_{k=1}^{|\gamma|}p_klog_2p_k$，其中 $p_k$ 是指当前样本中第 $k$ 类样本所占的比例，范围是 $(k=1,2,...\gamma)$
-     - [信息增益](https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A/8864911?fr=aladdin)：类似于信息熵的增量。公式为 $Gain(D, a) = Ent(D) - \sum_{\nu=1}^V\frac{|D^{\nu}|}{|D|}Ent(D^{\nu})$
+     - [信息增益](https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A/8864911?fr=aladdin)：类似于信息熵的增量。公式为[图片](https://github.com/kingdowliu/DecisionTree/blob/master/QQ%E6%88%AA%E5%9B%BE20190512214853.png)
 
 
 
